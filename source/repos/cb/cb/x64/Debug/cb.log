@@ -1,2 +1,4 @@
 ﻿  cb.cpp
-  cb.vcxproj -> C:\Users\Александр\source\repos\cb\x64\Debug\cb.exe
+  LINK : не найден или не выполнена сборка C:\Users\Александр\source\repos\cb\x64\Debug\cb.exe при последней инкрементной компоновке; выполняется полная компоновка
+ukaz.obj : error LNK2005: "int __cdecl main2(void)" (?main2@@YAHXZ) уже определен в cb.obj
+C:\Users\Александр\source\repos\cb\x64\Debug\cb.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
