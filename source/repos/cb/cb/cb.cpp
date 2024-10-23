@@ -92,9 +92,18 @@ int main() {
 	reverse(12345);
 	printf("iz 2 i 5 min eto %d \n", minimum(2, 5));
 	return 0;
+
+
+ukazzateli
+
+type *p;
+
+razymenovanie *
+vzyatie adresa &
+
 */
 
-#include <stdio.h>
+/* #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <locale.h>
@@ -183,3 +192,25 @@ int main(int argc, char* argv[]) {
 	}
 	return 0;
 }
+*/
+
+#include <stdio.h>
+
+
+
+int main() {
+	int m;
+	int *p;
+	void *p1;
+
+	p = &m;
+	p1 = &m;
+
+	m = 45;
+	printf("m - %d, p - %d, p1 - %c\n", m, *p, *(char*)p1);
+	*p = 60;
+	printf("m - %d, p - %d, p1 - %c\n", m, *p, *(char*)p1);
+	return 0;
+
+}
+
