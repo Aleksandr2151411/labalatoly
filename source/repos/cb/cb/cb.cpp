@@ -179,6 +179,7 @@ int main(int argc, char* argv[]) {
 	}
 	else {
 		printf("hi, %s\n", argv[1]);
+		printf("zzz");
 	}
 	return 0;
 }
